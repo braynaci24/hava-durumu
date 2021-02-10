@@ -1,0 +1,144 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.general-container {
+  background:	#008B8B;
+  padding: 70px 70px;
+  display: flex;
+  flex-direction: column;
+  height: 649px;
+}
+.weather-box {
+  display: flex;
+}
+.weather-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 15px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  width: 200px;
+  background-image: url("../images/rize.png");
+  background-position: center;
+  opacity: 0.8;
+}
+.air {
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 23px;
+  color: 	#62f1f1;
+  border-bottom: 1px solid #F0FFFF;
+  padding-bottom: 10px;
+}
+.city {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+  color: 	white;
+}
+.day {
+  font-weight: 700;
+  font-size: 18px;  
+  margin-top: 10px;
+  color: 	#62f1f1;
+}
+.weather-left i {
+  font-size: 120px;
+  color: 	#F0FFFF;
+  padding-bottom: 10px;
+  border-bottom: 1px solid 	#F0FFFF;
+}
+.weather-right {
+  background: white;
+  padding: 20px 20px;
+  position: relative;
+  width: 200px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-image: url("../images/yagmur.png");
+  background-size: cover;
+  margin-right: 22px;
+}
+.degree {
+  position: absolute;
+  color: #F0FFFF;
+  font-size: 15px;
+  top: 50px;
+  right:68px;
+}
+.degree-2 {
+  padding-left: 15px;
+  font-size: 50px;
+  color: #F0FFFF
+}
+.count-number {
+  font-size: 100px;
+  color: #F0FFFF;
+  margin-left: 20px;
+}
+.weather-right button a {
+  text-decoration: none;
+  color: black;
+}
+.weather-right button {
+  padding: 5px 5px;
+  margin-top: 65px;
+  border-radius: 5px;
+  border: 1px solid #F0FFFF ;
+  background: #F0FFFF;
+}
+.weather-right button:hover {
+  background: rgb(170, 170, 248);
+  border: 0px;
+  
+}
+.weather-right button:focus {
+  outline: none;
+}
+.ordu {
+  background-image: url("../images/ordu.png");
+  background-size: cover;
+}
+.ordu-2 {
+  background-image: url("../images/bulut.png");
+  background-size: cover;
+}
+.giresun i {
+  color: #fbfb96;
+}
+.giresun {
+  background-image: url("../images/giresun.png");
+  background-size: cover;
+}
+.giresun-2 {
+  background-image: url("../images/günes.png");
+  background-size: cover; 
+}
+.weather-box-2 {
+  background: red;
+  display: flex;
+  justify-content: space-around;
+}
+.weather-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.bayburt {
+  background-image: url("../images/bayburt.jpg");
+  background-size: cover; 
+}
+.bayburt-2 {
+  background-image: url("../images/kar.jpg");
+  background-size: cover; 
+}
+.usak {
+  background-image: url("../images/usak.jpg");
+  background-size: cover; 
+}
+.usak-2 {
+  background-image: url("../images/parcali.jpg");
+  background-size: cover; 
+}
