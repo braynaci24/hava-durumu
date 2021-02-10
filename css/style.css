@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 .general-container {
-  background:	#008B8B;
+  background:	#87CEFA;
   padding: 70px 70px;
   display: flex;
   flex-direction: column;
