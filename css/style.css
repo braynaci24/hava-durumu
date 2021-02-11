@@ -7,6 +7,13 @@ body {
   display: flex;
   flex-direction: column;
   height: 649px;
+  background-image: url("../images/bulut.png");
+  background-size: cover;
+}
+.detail-container {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  height: 789px;
 }
 .weather-box {
   display: flex;
@@ -146,4 +153,79 @@ body {
 .usak-2 {
   background-image: url("../images/parcali.jpg");
   background-size: cover; 
+}
+.weather {
+  display: flex;
+  flex-direction: column;
+  background: #F0FFFF;
+  width: 350px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 10px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.weather img {
+  width: 350px;
+  height: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.weather ul li {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.weather ul li:first-child {
+  padding-top: 10px;
+}
+.weather ul li:last-child {
+  padding-bottom: 10px;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu span {
+  border: 1px solid rgb(255, 253, 253);
+  padding: 7px 7px;
+}
+.hadise {
+  padding-right: 10px;
+}
+.x {
+  display: flex;
+  justify-content: space-between;
+  width: 197px;
+}
+.x:first-child {
+  padding-left: 10px;
+}
+.highest {
+  padding-right: 22px;
+}
+.hadise-2 {
+  padding-left: 10px;
+}
+.hadise-3 {
+  padding-left: 5px;
+}
+.hadise-4 {
+  padding-left: 14px;
+}
+.way {
+  width: 10px;
+}
+.way-element {
+  padding-left: 10px;
+}
+.city-2 {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.pd {
+  padding-left: 12px;
 }
